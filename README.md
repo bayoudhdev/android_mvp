@@ -8,9 +8,13 @@ The project is based on the idea of simplicity, make development more simple, ex
 Points :
 
 Use Retrofit2 OKHTTP to do network requests and caching
+
 Use Material Design controls and animations
+
 Use RxPermissions for android6.0 permission application
+
 Use the MVP architecture throughout the project, and extract the core as a library, import core can save 50% of the code development
+
 Use Fragmentation to simplify the operation of Fragment and lazy loading
 
 
