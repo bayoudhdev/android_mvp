@@ -26,7 +26,7 @@ Edit
 Gradle Settings :
 ext {
 configuration = [
-package : "com.proxym_it.app.structure_app",
+package : "com.mvp.project",
 buildToolsVersion: "25.0.0",
 compileVersion : 24,
 minSdk : 17,

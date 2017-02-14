@@ -1,4 +1,4 @@
-package com.proxym_it.app.structure_app;
+package com.mvp.project;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.proxym_it.app.structure_app", appContext.getPackageName());
+        assertEquals("com.mvp.project", appContext.getPackageName());
     }
 }

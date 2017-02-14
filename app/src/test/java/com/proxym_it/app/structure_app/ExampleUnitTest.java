@@ -1,4 +1,4 @@
-package com.proxym_it.app.structure_app;
+package com.mvp.project;
 
 import org.junit.Test;
 
