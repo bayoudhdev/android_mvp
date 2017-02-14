@@ -1,0 +1,44 @@
+ext {
+    configuration = [
+            package          : "com.proxym_it.app.structure_app",
+            buildToolsVersion: "25.0.0",
+            compileVersion   : 24,
+            minSdk           : 17,
+            targetSdk        : 25,
+            version_code     : 1,
+            version_name     : "1.0"
+    ]
+
+    libraries = [
+            supportVersion: "25.1.0",
+            butterknife   : "8.5.1",
+            calligraphy   : "2.2.0",
+            retrofit      : "2.1.0",
+            interceptor   : "3.2.0"
+    ]
+
+    keystore = [
+            keyPassword  : "",
+            storePassword: "",
+            alias        : "",
+            path         : ""
+    ]
+}
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
