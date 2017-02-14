@@ -20,47 +20,82 @@ Method of use
 
 Import the core library
 compile "com.android.support:appcompat-v7:${libs.supportVersion}"
+
 compile "com.jakewharton:butterknife:${libs.butterknife}"
+
 apt "com.jakewharton:butterknife-compiler:${libs.butterknife}"
+
 compile "uk.co.chrisjenx:calligraphy:${libs.calligraphy}"
+
 compile "com.squareup.okhttp3:logging-interceptor:${libs.interceptor}"
+
 compile "com.squareup.retrofit2:retrofit:${libs.retrofit}"
+
 compile "com.squareup.retrofit2:converter-gson:${libs.retrofit}"
+
 compile "com.squareup.retrofit2:converter-scalars:${libs.retrofit}"
+
 
 
 Gradle Settings :
 
 ext {
+
 configuration = [
+
 package : "com.mvp.project",
+
 buildToolsVersion: "25.0.0",
+
 compileVersion : 24,
+
 minSdk : 17,
+
 targetSdk : 25,
+
 version_code : 1,
+
 version_name : "1.0"
+
 ]
 
+
 libraries = [
+
             supportVersion: "25.1.0",
+
             butterknife   : "8.4.0",
+
             calligraphy   : "2.2.0",
+
             retrofit      : "2.1.0",
+
             interceptor   : "3.2.0"
+
     ]
+
 keystore = [
+
             keyPassword  : "",
+
             storePassword: "",
+
             alias        : "",
+
             path         : ""
+
     ]
+
 }
+
 
 
 
 
 TODO
 -Add Dagger 2, EventBus , RXJAVA
+
 -Continue to optimize
+
 -There are many to do...# android_mvp
+
